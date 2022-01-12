@@ -1,0 +1,14 @@
+//https://www.youtube.com/watch?v=sBenKZqEzpQ&t=2s
+
+//https://developer.paypal.com/developer/accounts
+// hay qye tener una cuenta de vendedor y comprador trabahar siempre en modo sandbox para desarrollar
+// nos vamos a sandbox para crear una nueva de Business en accounts
+// despues una vez tengamos la cuenta de prueba creamos la app ya agregamos la cuenta de paypal
+npm init -y
+npm i express morgan cors axios cross-env dotenv node-fetch
+npm i -D nodemon @babel/core @babel/cli @babel/preset-env @babel/node @babel/plugin-transform-runtime ncp
+npm i -g  @babel/node
+
+// paypal order example https://developer.paypal.com/api/orders/v1/
+
+
